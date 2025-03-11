@@ -1,0 +1,17 @@
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - 1337:80
+    networks:
+      wwe-bridge:
+        ipv4_address: 172.30.0.2
+
+networks:
+  wwe-bridge:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.30.0.0/24
+         gateway: 172.30.0.1      

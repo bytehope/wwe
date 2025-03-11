@@ -1,0 +1,5 @@
+POST / HTTP/1.1
+Host: 192.168.199.128:1337
+Content-Type: application/x-www-form-urlencoded
+
+user_input=<@urlencode>@payload</@urlencode>
